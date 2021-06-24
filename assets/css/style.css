@@ -18,6 +18,9 @@ img {
 .green-text {
   color: var(--text-color);
 }
+.purple:hover{
+  color: var(--primary-color);
+}
 /* Navigation Section */
 .navigation {
   margin-bottom: 90px;
@@ -744,6 +747,13 @@ footer {
   transition: 0.3s linear;
 }
 @media screen and (max-width: 700px) {
+  .navtop{
+    flex-direction: column;
+  }
+  .navtoppara p{
+    padding-top: 12px;
+    text-align: center;
+  }
   .rht{
     margin-right: -20px;
   }
